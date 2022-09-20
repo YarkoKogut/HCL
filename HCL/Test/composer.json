@@ -1,0 +1,25 @@
+{
+    "name": "hcl/test",
+    "description": "Test module for adding custom column to sales grid",
+    "require": {
+        "php": "^7.4"
+    },
+    "type": "magento2-component",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "HCL",
+            "email": "yarko.kogut@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "HLC\\Test\\": ""
+        }
+    }
+}
+
